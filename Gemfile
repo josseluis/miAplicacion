@@ -21,6 +21,14 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+
+#gem 'coffee-script', '~> 2.4', '>= 2.4.1'
+gem 'bootstrap-sass' , '~> 3.3.6 ' 
+gem 'bootstrap-material-design'
+
+#gem 'coffee-script-source', '~> 1.8'
+# gem Coffe-Script-source para solucionar error
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
