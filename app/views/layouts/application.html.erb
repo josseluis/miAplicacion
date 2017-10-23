@@ -6,16 +6,16 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
-  	
   	<!--para no repetir el código en todas la páginas lo ponemos aquí y de esta manera cumplimos con una de las filosofías de RoR-->
-    <%= link_to "Inicio", root_path  %> <!--root = home-->
-    <%= link_to "Nosotros", about_path  %>
+   <%= render 'layouts/header' %>
 
-
-    <%= yield %>
+    <div class="container">
+       <%= yield %>
+    </div>
 
   </body>
 </html>

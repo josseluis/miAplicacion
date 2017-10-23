@@ -1,2 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+$body-bg: rgba(44, 62, 80,1.0);
+$font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$navbar-inverse-bg: white;
+$navbar-inverse-brand-color: #cb2129;
+/*$brand-primary: #cb2129;*/
+$navbar-inverse-link-color: #fff;
+$jumbotron-bg: white;
+$navbar-inverse-link-hover-color: #333;
+$navbar-inverse-brand-hover-color: #333;
+
+
 @import "bootstrap";
+
+.center{
+	
+	text-align:center;
+}
+
+.navbar-brand{
+	
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #cb2129;
+}
+
 
